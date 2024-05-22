@@ -18,35 +18,35 @@ public class Calculator {
     JPanel row5;
     JPanel row6;
 
-    elementButton sin;
-    elementButton cos;
-    elementButton tan;
-    elementButton divide;
+    ElementButton sin;
+    ElementButton cos;
+    ElementButton tan;
+    ElementButton divide;
 
-    elementButton pow;
-    elementButton leftPrths;
-    elementButton rightPrths;
-    elementButton multiply;
+    ElementButton pow;
+    ElementButton leftPrths;
+    ElementButton rightPrths;
+    ElementButton multiply;
 
-    elementButton square;
-    elementButton seven;
-    elementButton eight;
-    elementButton nine;
-    elementButton subtract;
+    ElementButton square;
+    ElementButton seven;
+    ElementButton eight;
+    ElementButton nine;
+    ElementButton subtract;
 
-    elementButton log;
-    elementButton four;
-    elementButton five;
-    elementButton six;
-    elementButton add;
+    ElementButton log;
+    ElementButton four;
+    ElementButton five;
+    ElementButton six;
+    ElementButton add;
 
-    elementButton one;
-    elementButton two;
-    elementButton three;
+    ElementButton one;
+    ElementButton two;
+    ElementButton three;
 
-    elementButton zero;
-    elementButton decimal;
-    elementButton negative;
+    ElementButton zero;
+    ElementButton decimal;
+    ElementButton negative;
 
     public Calculator()
     {
@@ -68,73 +68,73 @@ public class Calculator {
 
         row1 = new JPanel();
         row1.setLayout(new BoxLayout(row1, BoxLayout.X_AXIS));
-        sin = new elementButton(typingSpace, "sin");
+        sin = new ElementButton(typingSpace, "sin");
         row1.add(sin);
-        cos = new elementButton(typingSpace, "cos");
+        cos = new ElementButton(typingSpace, "cos");
         row1.add(cos);
-        tan = new elementButton(typingSpace, "tan");
+        tan = new ElementButton(typingSpace, "tan");
         row1.add(tan);
-        divide = new elementButton(typingSpace, "/");
+        divide = new ElementButton(typingSpace, "/");
         row1.add(divide);
         left.add(row1);
 
         row2 = new JPanel();
         row2.setLayout(new BoxLayout(row2, BoxLayout.X_AXIS));
-        pow = new elementButton(typingSpace, "^");
+        pow = new ElementButton(typingSpace, "^");
         row2.add(pow);
-        leftPrths = new elementButton(typingSpace, "(");
+        leftPrths = new ElementButton(typingSpace, "(");
         row2.add(leftPrths);
-        rightPrths = new elementButton(typingSpace, ")");
+        rightPrths = new ElementButton(typingSpace, ")");
         row2.add(rightPrths);
-        multiply = new elementButton(typingSpace, "*");
+        multiply = new ElementButton(typingSpace, "*");
         row2.add(multiply);
         left.add(row2);
 
         row3 = new JPanel();
         row3.setLayout(new BoxLayout(row3, BoxLayout.X_AXIS));
-        square = new elementButton(typingSpace, "^2");
+        square = new ElementButton(typingSpace, "^2");
         row3.add(square);
-        seven = new elementButton(typingSpace, "7");
+        seven = new ElementButton(typingSpace, "7");
         row3.add(seven);
-        eight = new elementButton(typingSpace, "8");
+        eight = new ElementButton(typingSpace, "8");
         row3.add(eight);
-        nine = new elementButton(typingSpace, "9");
+        nine = new ElementButton(typingSpace, "9");
         row3.add(nine);
-        subtract = new elementButton(typingSpace, "-");
+        subtract = new ElementButton(typingSpace, "-");
         row3.add(subtract);
         left.add(row3);
 
         row4 = new JPanel();
         row4.setLayout(new BoxLayout(row4, BoxLayout.X_AXIS));
-        log = new elementButton(typingSpace, "log");
+        log = new ElementButton(typingSpace, "log");
         row4.add(log);
-        four = new elementButton(typingSpace, "4");
+        four = new ElementButton(typingSpace, "4");
         row4.add(four);
-        five = new elementButton(typingSpace, "5");
+        five = new ElementButton(typingSpace, "5");
         row4.add(five);
-        six = new elementButton(typingSpace, "6");
+        six = new ElementButton(typingSpace, "6");
         row4.add(six);
-        add = new elementButton(typingSpace, "+");
+        add = new ElementButton(typingSpace, "+");
         row4.add(add);
         left.add(row4);
 
         row5 = new JPanel();
         row5.setLayout(new BoxLayout(row5, BoxLayout.X_AXIS));
-        one = new elementButton(typingSpace, "1");
+        one = new ElementButton(typingSpace, "1");
         row5.add(one);
-        two = new elementButton(typingSpace, "2");
+        two = new ElementButton(typingSpace, "2");
         row5.add(two);
-        three = new elementButton(typingSpace, "3");
+        three = new ElementButton(typingSpace, "3");
         row5.add(three);
         left.add(row5);
 
         row6 = new JPanel();
         row6.setLayout(new BoxLayout(row6, BoxLayout.X_AXIS));
-        decimal = new elementButton(typingSpace, ".");
+        decimal = new ElementButton(typingSpace, ".");
         row6.add(decimal);
-        zero = new elementButton(typingSpace, "0");
+        zero = new ElementButton(typingSpace, "0");
         row6.add(zero);
-        negative = new elementButton(typingSpace, "—");
+        negative = new ElementButton(typingSpace, "—");
         row6.add(negative);
         left.add(row6);
 

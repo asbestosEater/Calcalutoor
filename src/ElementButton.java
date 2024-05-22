@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class elementButton extends JPanel {
+public class ElementButton extends JPanel {
 
     private JButton button;
 
-    public elementButton(JTextArea area, String function)
+    public ElementButton(JTextArea area, String function)
     {
         button = new JButton(function);
         button.addActionListener(new ActionListener() {
